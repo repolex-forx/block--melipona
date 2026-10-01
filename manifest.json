@@ -50,7 +50,214 @@
       "ast": [
         "aggregate/ast/910fa5882da2f1f7ae04798c0592e893c9e745cf/chunk-001.nq.gz"
       ],
-      "repolex": "aggregate/repolex/910fa5882da2f1f7ae04798c0592e893c9e745cf/chunk-001.nq.gz"
+      "lsp": "aggregate/lsp/910fa5882da2f1f7ae04798c0592e893c9e745cf.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rmcp",
+          "ecosystem": "CARGO",
+          "version": "=1.8.0",
+          "githubOrg": "modelcontextprotocol",
+          "githubRepo": "rust-sdk",
+          "githubUrl": "https://github.com/modelcontextprotocol/rust-sdk/",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "process-wrap",
+          "ecosystem": "CARGO",
+          "version": "9.1",
+          "githubOrg": "watchexec",
+          "githubRepo": "process-wrap",
+          "githubUrl": "https://github.com/watchexec/process-wrap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sha2",
+          "ecosystem": "CARGO",
+          "version": "0.10",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hashes",
+          "githubUrl": "https://github.com/RustCrypto/hashes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "base64",
+          "ecosystem": "CARGO",
+          "version": "0.23",
+          "githubOrg": "marshallpierce",
+          "githubRepo": "rust-base64",
+          "githubUrl": "https://github.com/marshallpierce/rust-base64",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures-util",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "jsonschema",
+          "ecosystem": "CARGO",
+          "version": "0.57",
+          "githubOrg": "Stranger6667",
+          "githubRepo": "jsonschema",
+          "githubUrl": "https://github.com/Stranger6667/jsonschema",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "thiserror",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "dtolnay",
+          "githubRepo": "thiserror",
+          "githubUrl": "https://github.com/dtolnay/thiserror",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-tungstenite",
+          "ecosystem": "CARGO",
+          "version": "0.30",
+          "githubOrg": "snapview",
+          "githubRepo": "tokio-tungstenite",
+          "githubUrl": "https://github.com/snapview/tokio-tungstenite",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-util",
+          "ecosystem": "CARGO",
+          "version": "0.7",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "url",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "servo",
+          "githubRepo": "rust-url",
+          "githubUrl": "https://github.com/servo/rust-url",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "uuid",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "uuid-rs",
+          "githubRepo": "uuid",
+          "githubUrl": "https://github.com/uuid-rs/uuid",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "webpki-roots",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "rustls",
+          "githubRepo": "webpki-roots",
+          "githubUrl": "https://github.com/rustls/webpki-roots",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustls",
+          "ecosystem": "CARGO",
+          "version": "0.23",
+          "githubOrg": "rustls",
+          "githubRepo": "rustls",
+          "githubUrl": "https://github.com/rustls/rustls",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rcgen",
+          "ecosystem": "CARGO",
+          "version": "0.14",
+          "githubOrg": "rustls",
+          "githubRepo": "rcgen",
+          "githubUrl": "https://github.com/rustls/rcgen",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-rustls",
+          "ecosystem": "CARGO",
+          "version": "0.26",
+          "githubOrg": "rustls",
+          "githubRepo": "tokio-rustls",
+          "githubUrl": "https://github.com/rustls/tokio-rustls",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.5.0",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+          "githubTag": "v1.5.0",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.5.0/src/response.rs"
+        },
+        {
+          "packageName": "rustls-pki-types",
+          "ecosystem": "CARGO",
+          "version": "1.15.1",
+          "githubOrg": "rustls",
+          "githubRepo": "pki-types",
+          "githubUrl": "https://github.com/rustls/pki-types",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustls-pki-types-1.15.1/src/lib.rs"
+        },
+        {
+          "packageName": "tungstenite",
+          "ecosystem": "CARGO",
+          "version": "0.30.0",
+          "githubOrg": "snapview",
+          "githubRepo": "tungstenite-rs",
+          "githubCommit": "7f4aeaf0944992c5664c8fb8e0d54577c7e18020",
+          "githubTag": "v0.30.0",
+          "githubUrl": "https://github.com/snapview/tungstenite-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tungstenite-0.30.0/src/protocol/message.rs"
+        }
+      ]
     }
   ],
   "commit": "commit/commit.nq.gz",
