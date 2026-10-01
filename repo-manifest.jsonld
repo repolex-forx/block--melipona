@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/melipona/commit/910fa5882da2f1f7ae04798c0592e893c9e745cf",
       "git:hexsha": "910fa5882da2f1f7ae04798c0592e893c9e745cf",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
