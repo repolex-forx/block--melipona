@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "melipona",
+  "versions": [
+    {
+      "commit": "910fa5882da2f1f7ae04798c0592e893c9e745cf",
+      "tag": "main",
+      "parsed_at": "2026-10-01T06:37:32.403496+00:00"
+    }
+  ]
+}
