@@ -1,0 +1,22 @@
+[2026-10-02T10:50:00Z] === ENRICH ITERATION 2 START | repo=block/melipona sha=910fa588 ===
+[2026-10-02T10:50:00Z] [iter=2] PHASE START: enrich repo=block/melipona sha=910fa588 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/910fa588-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/910fa5882da2f1f7ae04798c0592e893c9e745cf.nq.gz
+[2026-10-02T10:50:35Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-02T10:50:43Z] [iter=2] AST store loaded triples=372154 load_secs=7 mem_mb=582 MB
+[2026-10-02T10:50:43Z] [iter=2] Step 2: Finding LSP targets mem_mb=582 MB
+[2026-10-02T10:50:43Z] [iter=2] LSP targets found call_sites=4233 imports=23 extends=0 implements=2 secs=1
+[2026-10-02T10:50:43Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=582 MB
+[2026-10-02T10:50:45Z] [iter=2] Position index built positions=24518 nodes_with_types=30432 secs=1 mem_mb=582 MB
+[2026-10-02T10:50:45Z] [iter=2] Step 3: Starting LSP resolution mem_mb=582 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T10:50:45Z] [iter=2] Resolving target type target_type=call_site count=4233
+[2026-10-02T10:51:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=0 resolved=0 errors=0 current=tests/session.rs
+[2026-10-02T10:52:30Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=1 resolved=587 errors=469 current=examples/conformance/main.rs
+[2026-10-02T10:53:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=5 resolved=1465 errors=756 current=src/session.rs
+[2026-10-02T10:53:22Z] [iter=2] Target type resolved target_type=call_site resolved=2136 errors=898 secs=158 mem_mb=582 MB
+[2026-10-02T10:53:22Z] [iter=2] Resolving target type target_type=import_statement count=23
+[2026-10-02T10:53:36Z] [iter=2] HEARTBEAT target_type=import_statement elapsed_min=3.6 files_done=2 resolved=5 errors=0 current=src/lib.rs
+[2026-10-02T10:53:38Z] [iter=2] Target type resolved target_type=import_statement resolved=22 errors=0 secs=16 mem_mb=582 MB
+[2026-10-02T10:53:38Z] [iter=2] Resolving target type target_type=implements_clause count=2
+[2026-10-02T10:53:47Z] [iter=2] Target type resolved target_type=implements_clause resolved=2 errors=0 secs=9 mem_mb=582 MB
+[2026-10-02T10:54:04Z] [iter=2] Step 5: Writing final enrichment file triples=27934
+[2026-10-02T10:54:05Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/910fa5882da2f1f7ae04798c0592e893c9e745cf.nq.gz size_kb=491
+[2026-10-02T10:54:05Z] [iter=2] PHASE END: enrich elapsed_s=245 elapsed_min=4.1 total_triples=27934
