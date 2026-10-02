@@ -38,6 +38,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── ast
 │   │   └── 910fa5882da2f1f7ae04798c0592e893c9e745cf
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 910fa5882da2f1f7ae04798c0592e893c9e745cf.nq.gz
 │   └── repolex
 │       └── 910fa5882da2f1f7ae04798c0592e893c9e745cf
 │           └── chunk-001.nq.gz
@@ -83,6 +85,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 910fa5882da2f1f7ae04798c0592e893c9e745cf.nq.gz
 ├── filetree
 │   └── 910fa5882da2f1f7ae04798c0592e893c9e745cf.nq.gz
 ├── issue
@@ -92,7 +96,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 45 files
+15 directories, 47 files
 ```
 
 | Directory | What it contains |
@@ -113,4 +117,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [block/melipona](https://github.com/block/melipona)
 
 ---
-*Parsed on 2026-10-01 by [repolex](https://repolex.ai)*
+*Parsed on 2026-10-02 by [repolex](https://repolex.ai)*
